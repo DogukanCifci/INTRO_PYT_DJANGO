@@ -24,4 +24,7 @@ angefragte_einheit = input('In welcher Einheit soll die Entefernung angezeigt we
 ergebnis = entfernungen[angefragte_planet] * 1000000 * umrechnungen[angefragte_einheit]
 
 print(f'Der Planet {angefragte_planet} hat eine Entfernung von {ergebnis} {angefragte_einheit} zur Sonne.')
-print('Hello')
+
+print('or')
+
+print('Der Planet {} ist {} {} entfernt'.format(angefragte_planet, ergebnis, angefragte_einheit))
