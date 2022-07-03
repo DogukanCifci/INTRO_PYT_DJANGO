@@ -7,7 +7,7 @@ with open("/Users/dogukan/Desktop/INTRO_PYT_DJANGO/python_solving methods++/mbox
     #print(file_stuff)
 
     print(file_stuff[0]) #-------> Ilk satir anlamina gelir. Ciktiya bakarsak sadece ilk satiri almistir
-    file_stuff[1] #-------> 2. satir anlamina gelir.
+    print(file_stuff[1]) #-------> 2. satir anlamina gelir.
 
     print(file_stuff[:3]) #------->listelemis bir sekilde bize ilk 3 satiri vericek. Ciktiya bak kesin 
 
