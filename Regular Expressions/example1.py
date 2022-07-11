@@ -10,4 +10,5 @@ for line in fhand :
         numlist.append(num)
     else : 
         continue
-print("Maksimum = ", max(numlist))
+print("The Summary = ", sum(numlist))
+print("Th max number = ", max(numlist))
