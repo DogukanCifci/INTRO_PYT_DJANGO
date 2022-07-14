@@ -1,4 +1,4 @@
-fhand = open("mbox-short.txt", "r")
+fhand = open("/Users/dogukan/Desktop/INTRO_PYT_DJANGO/python_solving methods++/mbox-short1.txt", "r")
 my_dict = dict()
 for line in fhand :
     if not line.startswith('From ') :
