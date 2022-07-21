@@ -6,7 +6,7 @@ from importlib.machinery import SourceFileLoader            # Auf jeden Fall mus
 
 deneme1 = SourceFileLoader('deneme1', './Module-Package/my_package/deneme1.py').load_module()
 
-japan = SourceFileLoader('asya', './Module-Package/my_package/my_subpack/asya/japan.py').load_module()
+japan = SourceFileLoader('japan', './Module-Package/my_package/my_subpack/asya/japan.py').load_module()
 
 kore = SourceFileLoader('kore', './Module-Package/my_package/my_subpack/asya/kore.py').load_module()
 
