@@ -1,9 +1,9 @@
-import urllib.request as ur
+import urllib.request 
 from bs4 import *
 
 url = input('Enter the url to scrape - ')
 
-html = ur.urlopen(url).read()
+html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 
 count_of_spans = 0
