@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import collections
+collections.Callable = collections.abc.Callable
 
 
 my_url = "https://www.imdb.com/chart/top/?ref_=nv_mv_250"
