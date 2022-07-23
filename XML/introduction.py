@@ -17,4 +17,4 @@ print('Phone Type :', tree.find('phone').get('type'))   #Burdaki cikti da intl o
 print('Number : ', tree.find('phone').text.lstrip())    #lstrip yapma sebebim numara asagida gözüküyordu.
 print('Date : ', tree.find('date').text)
 
-####Eger tag icindeki bir özelligi almak istiyorsak .get ile ---- Tag arasindaki yaziyi almak istiyorsak .text ile aliyoruz.
+####Eger tag icindeki bir özelligi almak istiyorsak .text yerine .get('özellik_adi') ile ---- Tag arasindaki yaziyi almak istiyorsak .text ile aliyoruz.
