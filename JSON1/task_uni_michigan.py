@@ -2,8 +2,8 @@
 import urllib.request as ur 
 import json 
 
-my_url = input("Enter the location : ")
-print(my_url, 'is retrieving......')
+my_url = input("Enter the location : ")                     #http://py4e-data.dr-chuck.net/comments_1462208.json
+print(my_url, 'is retrieving......')                        #http://py4e-data.dr-chuck.net/comments_42.json
 
 data = ur.urlopen(my_url).read().decode('utf-8')
 print(f'{len(data)} characters received!!')

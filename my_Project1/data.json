@@ -1,0 +1,51 @@
+[
+    {
+        "id" : "001", "personal_info" : {
+            "first_name" : "Dogukan",
+            "last_name" : "Cifci",
+            "phone_number" : "+1 234 342 12",
+            "adress" : {
+                "state" : "US",
+                "city" : "Washington",
+                "post_code" : "98811"
+            } ,
+            "languages" : ["Python", "JavaScript", "SQL"],
+            "experience" : "Junior",
+            "mail" : "cifci@gmail.com",
+            "sex" : "Male"
+        }
+        
+    },
+    {
+        "id" : "002" , "personal_info" : {
+            "first_name" : "Mirac",
+            "last_name" : "Iscan",
+            "phone_number" : "+49 234 342 12",
+            "adress" : {
+                "state" : "Germany",
+                "city" : "Stuttgart",
+                "post_code" : "73612"
+            },
+            "languages" : ["Python", "SQL"],
+            "experience" : "Mid",
+            "mail" : "isgan@gmail.com",
+            "sex" : "Male"
+        }
+    },
+    {
+        "id" : "003", "personal_info" : {
+            "first_name" : "Gizem",
+            "last_name" : "Ucar",
+            "phone_number" : "+49 224 542 12",
+            "adress" : {
+                "state" : "Germany",
+                "city" : "Aalen",
+                "post_code" : "32100"
+            }, 
+            "languages" : ["Python"],
+            "experience" : "Mid",
+            "mail" : "None",
+            "sex" : "Female"
+        }
+    }
+]
